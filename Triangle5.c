@@ -10,7 +10,7 @@ int main(){
 		for(n2 = space; n2>0; n2--){
 			printf(" ");
 			}
-		for(n3 = 0; n3 < (2 * n1) -1 ; n3++){
+		for(n3 = (2 * n1) -1; n3 > 0 ; n3--){
 			printf("*");
 			}
 		printf("\n");
